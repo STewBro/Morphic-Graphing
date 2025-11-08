@@ -1,0 +1,11 @@
+Morphic_Graphing_Handover_Kit_StewartBrown_2025/
+│
+├── Call_for_Developers_Morphic_Graphing.md
+├── ATLAS_CORE_ARCHIVE_Developer_Edition.md
+├── README_Hand_Over.md
+└── assets/
+     ├── cubic_surface.png
+     ├── qm_relativity_surface.png
+     ├── qm_rel_guided_slices.png
+     ├── cubic_surface.yml
+     └── qm_relativity_surface.yml
