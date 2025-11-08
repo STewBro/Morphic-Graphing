@@ -1,0 +1,17 @@
+MORPHIC GRAPHING HANDOVER KIT — FILE MANIFEST
+---------------------------------------------
+Root files:
+  README.md
+  Call_for_Developers_Morphic_Graphing.md
+  ATLAS_CORE_ARCHIVE_Developer_Edition.md
+  README_Hand_Over.md
+  LICENSE
+  MANIFEST.txt
+  morphic_core.py
+  examples.py
+Assets:
+  assets/cubic_surface.png
+  assets/qm_relativity_surface.png
+  assets/qm_rel_guided_slices.png
+  assets/cubic_surface.yml
+  assets/qm_relativity_surface.yml
