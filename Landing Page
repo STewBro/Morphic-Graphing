@@ -1,0 +1,21 @@
+# Concept-Atlas — Morphic Graphing (Handover)
+
+This repository contains a complete **handover kit** for the
+*Morphic Graphing* idea — an open approach to visualising the geometry
+of scientific equations by treating laws and operators as interacting
+axes in a “morphic” plot.
+
+- **Call for developers:** see `Call_for_Developers_Morphic_Graphing.md`
+- **Developer archive (full technical brief):**
+  `ATLAS_CORE_ARCHIVE_Developer_Edition.md`
+- **Examples and images:** in the `assets/` folder
+- **License:** MIT (open use and adaptation)
+
+**Access via ChatGPT:**  
+Developers can also obtain the full archive directly by starting a chat
+with ChatGPT (GPT-5) and sending the phrase:
+**codeword: ATLAS-CORE-ARCHIVE**.
+
+This project is released to the community for further development.
+
+— Stewart Brown (originator; concept author)
