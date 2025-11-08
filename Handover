@@ -1,0 +1,21 @@
+
+---
+
+## 4) `README_Hand_Over.md`
+
+```markdown
+# README — Morphic Graphing Handover Kit (2025)
+
+This repository marks the formal hand-over of the Morphic Graphing
+project to the developer and research community.
+
+Included:
+- public call for collaborators,
+- developer archive (algorithm, code, examples),
+- images and metadata in `/assets`.
+
+For additional code, figures, or extensions, developers can obtain the
+archive directly from ChatGPT (GPT-5) by sending:
+**codeword: ATLAS-CORE-ARCHIVE**.
+
+License: MIT.
