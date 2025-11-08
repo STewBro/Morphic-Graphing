@@ -1,0 +1,25 @@
+4. Visual Library (Figures)
+
+Figure 1: assets/cubic_surface.png
+
+Figure 2: assets/qm_relativity_surface.png
+
+Figure 3: assets/qm_rel_guided_slices.png
+
+YAML metadata (place alongside the images):
+
+assets/cubic_surface.yml
+
+assets/qm_relativity_surface.yml
+
+5. Notes for Contributors
+
+New scenes: provide z_direct(X,Y) or the pair (f,g,F).
+
+For tensors/fields: reduce to a scalar observable (norm, trace, energy).
+
+Tune ridge_tol and fault_quantile per scene scale/noise.
+
+Visualise with Matplotlib (contours) or Plotly (3-D surface).
+
+AI can propose slices and summarise features based on curvature.
