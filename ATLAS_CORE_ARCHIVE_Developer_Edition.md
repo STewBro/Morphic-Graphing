@@ -120,3 +120,56 @@ def compute_morphic_surface(x_range, y_range, nx, ny, *,
     deriv = derivatives(surf)
     feats = features(surf, deriv, ridge_tol=ridge_tol, fault_quantile=fault_quantile)
     return {"grid": grid, "surface": surf, "derivatives": deriv, "features": feats}
+6. Multi-Analytic Extensions
+
+The morphic-graphing method is not restricted to physical operators or direct field couplings.
+Any analytic transformation can serve as a secondary or orthogonal operator, allowing different graphing algorithms to reveal different structural aspects of the same law.
+
+6.1 Concept
+
+Instead of pairing a law with a physical property (momentum, potential, curvature),
+one can pair it with an analytic that probes the system’s behaviour—such as a Fourier transform, wavelet transform, Green’s function, or sensitivity measure.
+Each analytic defines a distinct morphic landscape highlighting complementary geometry.
+
+Analytic	Reveals	Typical insight
+Fourier spectrum	Dominant periodicities	Resonant structure, mode splitting
+Wavelet transform	Time–frequency localisation	Damping, transient behaviour
+Green / impulse response	Causal propagation	Boundary or retardation effects
+Variational (Lagrangian)	Energy minima	Degeneracy, alternative formulations
+Sensitivity / adjoint	Parameter influence	Re-parameterisation, simplification
+Symmetry / invariant	Gauge or group structure	Hidden equivalences
+Each analytic produces a new morphic surface.
+By comparing multiple surfaces side by side, researchers can identify where distinct formulations overlap or where they diverge, often suggesting new bases or alternative mathematical descriptions.
+
+6.2 Example: Damped Oscillator with Spectral and Wavelet Analytics
+
+A practical demonstration is provided in examples_spectral.py.
+It constructs two morphic surfaces of a damped harmonic oscillator 
+y′′+2γy′+ω02y=0
+y
+′′
++2γy
+′
++ω
+0
+2
+	​
+
+y=0:
+
+Spectral analytic (Fourier) — shows how resonance amplitude varies with damping and natural frequency.
+
+Wavelet analytic (Morlet) — shows how time-localisation broadens the effective frequency content as damping increases.
+
+The resulting image (assets/damped_oscillator_analytics.png) displays the two panels side-by-side.
+Both arise from the same law but exhibit different ridges and spreads, revealing how the analytic acts as an independent operator shaping the morphic landscape.
+
+6.3 Future Directions
+
+Developers can generalise this by introducing:
+
+Additional analytics (e.g., Green’s functions, sensitivity maps, probability densities).
+
+Automated comparison metrics between analytics.
+
+Interactive toggles or AI-guided selection of the analytic that best clarifies structure.
