@@ -1,0 +1,21 @@
+title: Quantum–Relativity Morphic Surface
+file: qm_relativity_surface.png
+author: Stewart Brown & ChatGPT-5
+version: 0.1.1
+date: 2025-11-08
+description: >
+  Surface illustrating how spatial separation (x) and energy ratio (y)
+  interact to define event resolvability, blending quantum uncertainty
+  with relativistic locality.
+equation:
+  z: exp(- (|x| / (1 + 1/y))^2) * (1 + 1/y^2)
+axes:
+  x_label: Normalised spatial separation (s / λC)
+  x_range: [-3, 3]
+  y_label: Energy ratio (U / U0)
+  y_range: [1, 10]
+  z_label: Relative resolvability R(x, y)
+notes: |
+  - Fold near y≈1 and x≈0 indicates tension of quantum and relativistic limits.
+  - Higher y flattens the surface (classical-like regime).
+tags: [quantum, relativity, morphic-surface]
