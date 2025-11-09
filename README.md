@@ -26,4 +26,20 @@ The long-term aim is to build a shared **Atlas of Scientific Concepts**:
 a living map of how fundamental equations relate when visualised through
 different analytic perspectives.
 
+## For future development
+
+This repository is released as an open starting point for independent
+development and experimentation.  
+Potential next directions include:
+
+- Extending the morphic-graphing core to handle additional analytics
+  (e.g., Green’s functions, sensitivity maps, probabilistic operators).
+- Building an interactive visual interface for navigating morphic surfaces.
+- Developing AI-assisted routines for selecting or combining analytics.
+- Integrating the concept into educational visualisation tools.
+
+The project is intentionally left open-ended: new contributors are free
+to interpret, refactor, or expand it in their own way while retaining
+the central idea — that the geometry of equations can itself be explored
+as a conceptual landscape.
 
